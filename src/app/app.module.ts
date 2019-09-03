@@ -9,6 +9,9 @@ import { HomecardsComponent } from './homecards/homecards.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { MealsComponent } from './meals/meals.component';
+import { Mealoption1Component } from './mealoption1/mealoption1.component';
+import { Mealoption2Component } from './mealoption2/mealoption2.component';
+import { Mealoption3Component } from './mealoption3/mealoption3.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { MealsComponent } from './meals/meals.component';
     HomecardsComponent,
     FooterComponent,
     AboutComponent,
-    MealsComponent
+    MealsComponent,
+    Mealoption1Component,
+    Mealoption2Component,
+    Mealoption3Component
   ],
   imports: [
     BrowserModule,

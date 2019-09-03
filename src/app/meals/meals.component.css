@@ -4,5 +4,16 @@
 
 #meal-section .card {
   background-color: #e8f5e9;
+  border-radius: 10px;
+}
+
+#meal-section .card:hover {
+  cursor: pointer;
+  -webkit-transition: ease-in .2s;
+  transition: ease-in .2s;
+  -webkit-transition: ease-out .1s;
+  transition: ease-out .1s;
+  -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
 }
 /*# sourceMappingURL=meals.component.css.map */
