@@ -1,0 +1,25 @@
+#carousel-section .carousel-item {
+  max-height: 700px;
+}
+
+#carousel-section .carousel-item .jumbotron {
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+#carousel-section .carousel-item .jumbotron:hover {
+  -webkit-transition: ease-in .3s;
+  transition: ease-in .3s;
+  -webkit-transition: ease-out .2s;
+  transition: ease-out .2s;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fce4ec;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-item {
+    max-height: 400px;
+  }
+}
+/*# sourceMappingURL=home.component.css.map */
