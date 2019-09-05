@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AACA,AAAA,aAAa,CAAC;EAEV,gBAAgB,EAAE,OAAO;CAO5B;;AATD,AAII,aAJS,CAIT,UAAU,CAAC;EACP,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CACjB",
+    "mappings": "AAGA,AAAA,aAAa,CAAC;EAEV,gBAAgB,ECHP,OAAO;CDUnB;;AATD,AAII,aAJS,CAIT,UAAU,CAAC;EACP,SAAS,EAAE,IAAI;EACf,KAAK,ECRN,OAAO;CDST",
     "sources": [
-        "homecards.component.scss"
+        "homecards.component.scss",
+        "../../_colors.scss"
     ],
     "names": [],
     "file": "homecards.component.css"

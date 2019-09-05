@@ -1,16 +1,16 @@
-
+@import '../../colors';
 
 
 #header {
 
     .bg-navbar {
-        background-color: #f06292;
+        background-color: $pink;
 
         .navbar-brand {
             font-size: 1.8rem;
         }
         .light-green {
-            color: #a5d6a7;
+            color: $green-logo;
         }
 
     }

@@ -1,11 +1,13 @@
+@import '../../colors';
+
 
 #card-section {
 
-    background-color: #fce4ec;
+    background-color: $pink-light;
 
     .card-logo {
         font-size: 4rem;
-        color: #f06292;
+        color: $pink;
     }
 
 }

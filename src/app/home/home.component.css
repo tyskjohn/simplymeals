@@ -1,5 +1,5 @@
-#carousel-section .carousel-item {
-  max-height: 700px;
+.mt-header {
+  margin-top: 65px;
 }
 
 #carousel-section .carousel-item a {
@@ -8,21 +8,30 @@
 
 #carousel-section .carousel-item .jumbotron {
   border-radius: 100px;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: white;
+  background: transparent;
+}
+
+#carousel-section .carousel-item .jumbotron .h1-1, #carousel-section .carousel-item .jumbotron .p-1 {
+  color: #f06292;
+}
+
+#carousel-section .carousel-item .jumbotron .h1-2, #carousel-section .carousel-item .jumbotron .p-2 {
+  color: #66bb6a;
 }
 
 #carousel-section .carousel-item .jumbotron:hover {
-  -webkit-transition: ease-in .3s;
-  transition: ease-in .3s;
-  -webkit-transition: ease-out .2s;
-  transition: ease-out .2s;
-  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: ease-in-out .1s;
+  transition: ease-in-out .1s;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .carousel-item {
-    max-height: 400px;
+    max-height: 800px;
+  }
+  .mt-header {
+    margin-top: 100px;
   }
 }
 /*# sourceMappingURL=home.component.css.map */
