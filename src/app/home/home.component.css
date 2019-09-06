@@ -26,12 +26,43 @@
   transition: ease-in-out .1s;
 }
 
+#carousel-section .sm-main {
+  position: relative;
+}
+
+#carousel-section .sm-main .sm-main-caption {
+  position: absolute;
+  top: 20%;
+  bottom: 30%;
+  left: 25%;
+  right: 25%;
+  text-decoration: none;
+}
+
+#carousel-section .sm-main .sm-main-caption h1 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+#carousel-section .sm-main .sm-main-caption h1, #carousel-section .sm-main .sm-main-caption p {
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  .mt-header {
+    margin-top: 100px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .carousel-item {
     max-height: 800px;
   }
-  .mt-header {
-    margin-top: 100px;
+}
+
+@media only screen and (max-width: 576px) {
+  .sm-main-caption p {
+    display: none;
   }
 }
 /*# sourceMappingURL=home.component.css.map */
