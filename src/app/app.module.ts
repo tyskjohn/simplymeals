@@ -12,6 +12,8 @@ import { MealsComponent } from './meals/meals.component';
 import { Mealoption1Component } from './mealoption1/mealoption1.component';
 import { Mealoption2Component } from './mealoption2/mealoption2.component';
 import { Mealoption3Component } from './mealoption3/mealoption3.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { Mealoption3Component } from './mealoption3/mealoption3.component';
     MealsComponent,
     Mealoption1Component,
     Mealoption2Component,
-    Mealoption3Component
+    Mealoption3Component,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

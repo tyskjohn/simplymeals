@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,cAAc,CAAC;EAEX,UAAU,ECFD,OAAO;CDenB;;AAfD,AAKI,cALU,CAKV,aAAa,CAAC;EACV,UAAU,ECHV,OAAO;EDIP,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,KAAK;CAKf;;AAbL,AAUQ,cAVM,CAKV,aAAa,CAKT,MAAM,CAAC;EACH,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "login.component.scss",
+        "../../_colors.scss"
+    ],
+    "names": [],
+    "file": "login.component.css"
+}

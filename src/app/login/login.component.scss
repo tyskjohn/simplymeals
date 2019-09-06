@@ -1,0 +1,18 @@
+@import '../../colors';
+
+.modal-content {
+
+    background: $pink-light;
+    
+
+    .modal-header {
+        background: $green;
+        font-weight: bold;
+        color: white;
+
+        .close {
+            color: white;
+        }
+    }
+
+}

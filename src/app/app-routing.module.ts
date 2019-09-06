@@ -6,6 +6,8 @@ import { MealsComponent } from './meals/meals.component';
 import { Mealoption1Component } from './mealoption1/mealoption1.component';
 import { Mealoption2Component } from './mealoption2/mealoption2.component';
 import { Mealoption3Component } from './mealoption3/mealoption3.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: 'meal1', component: Mealoption1Component },
   { path: 'meal2', component: Mealoption2Component },
   { path: 'meal3', component: Mealoption3Component },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
 ];
 
 @NgModule({

@@ -1,0 +1,23 @@
+.mt-header {
+  margin-top: 65px;
+}
+
+#register-section {
+  background: #c8e6c9;
+}
+
+#register-section .register-form {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+#register-section .register-form input, #register-section .register-form select {
+  background: #e8f5e9;
+}
+
+@media only screen and (min-width: 992px) {
+  .mt-header {
+    margin-top: 100px;
+  }
+}
+/*# sourceMappingURL=register.component.css.map */

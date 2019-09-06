@@ -33,15 +33,21 @@
 
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">LOGGA IN</a>
+              <a class="nav-link" data-toggle="modal" data-target="#loginModal">LOGGA IN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">REGISTRERA</a>
+              <a class="nav-link" href="/register">REGISTRERA</a>
             </li>
           </ul>
 
         </div>
       </nav>
     </div>
+  </div>
+</div>
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <app-login></app-login>
   </div>
 </div>

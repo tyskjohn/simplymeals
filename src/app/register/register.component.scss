@@ -1,0 +1,27 @@
+@import '../../colors';
+
+.mt-header {
+    margin-top: 65px;
+}
+
+#register-section {
+    background: $green-light;
+
+    .register-form {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+
+        input, select {
+            background: $green-lighter;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    .mt-header {
+        margin-top: 100px;
+    }
+
+}

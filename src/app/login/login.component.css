@@ -1,0 +1,14 @@
+.modal-content {
+  background: #fce4ec;
+}
+
+.modal-content .modal-header {
+  background: #5cb85c;
+  font-weight: bold;
+  color: white;
+}
+
+.modal-content .modal-header .close {
+  color: white;
+}
+/*# sourceMappingURL=login.component.css.map */
