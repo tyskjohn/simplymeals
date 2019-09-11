@@ -12,7 +12,20 @@
         .light-green {
             color: $green-logo;
         }
+    }
 
+    
+    nav {
+
+        a:hover {
+            transition: ease-in-out .2s;
+            background-color: rgba(255, 255, 255, 0.15);
+            border-radius: 5px;
+        }
+
+        .modal-btn {
+            cursor:  pointer !important;
+        }
     }
 
 }

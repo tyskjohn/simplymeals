@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,8 +11,6 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { MealsComponent } from './meals/meals.component';
 import { Mealoption1Component } from './mealoption1/mealoption1.component';
-import { Mealoption2Component } from './mealoption2/mealoption2.component';
-import { Mealoption3Component } from './mealoption3/mealoption3.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 
@@ -25,14 +24,13 @@ import { RegisterComponent } from './register/register.component';
     AboutComponent,
     MealsComponent,
     Mealoption1Component,
-    Mealoption2Component,
-    Mealoption3Component,
     LoginComponent,
     RegisterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
