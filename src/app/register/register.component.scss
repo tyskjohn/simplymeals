@@ -5,14 +5,10 @@
 }
 
 #register-section {
-    background: $green-light;
+    background: $pink-light;
 
     .register-form {
-        padding-top: 3rem;
-        padding-bottom: 2rem;
-
         input, select {
-            background: $green-lighter;
         }
     }
 }
