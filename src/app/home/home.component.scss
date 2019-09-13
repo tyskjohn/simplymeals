@@ -17,6 +17,7 @@
             border-radius: 100px;
             background: transparent;
             
+            
             .h1-1, .p-1 {
                 color: $pink;
             }
@@ -28,8 +29,9 @@
             }
         }
         .jumbotron:hover {
-            transform: scale(1.02);
+            transform: scale(1.03);
             transition: ease-in-out .1s;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
         }
         
     }

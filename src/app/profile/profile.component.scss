@@ -1,0 +1,87 @@
+@import '../../colors';
+
+.mt-header {
+    margin-top: 65px;
+}
+
+#profile-section {
+    background: $pink-light;
+    
+
+    .profile-header {
+        background: $green-light;
+        border-bottom: 1px solid $green-logo;
+        padding-bottom: .8rem;
+
+        .user-img{
+            font-size: 7rem;
+            color: $green;
+            
+        }
+    
+        .user-tag {
+            color: $pink;
+        }
+    }
+
+
+
+    .nav {
+
+        a {
+            color: $pink;
+            background: $green-light;
+        }
+
+        .active {
+            background: $green;
+            transition: ease-in-out .15s;
+            color: white;
+        }
+    }
+
+    /*TABS*/
+
+    .overview-tabs {
+        
+        tbody  {
+            color: $pink;
+
+            
+
+            tr:hover {
+                transition: ease-in-out .1s;
+                background: $green-light;
+                
+            }
+
+            .overview-input {
+                border: none;
+                background: transparent;
+            }
+            .cog {
+                font-size: 1.3rem;
+                cursor: pointer;
+            }
+            .cog:hover {
+                transform: scale(1.05);
+                transition: ease-in-out .1s;
+                color: $green;
+            
+            }
+        }
+    }
+
+    .overview-section {
+
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .mt-header {
+        margin-top: 100px;
+    }
+
+}

@@ -1,6 +1,6 @@
 <div class="tab-content" id="loginRegTabs">
 
-  <!-- Register TAB -->
+  <!-- Login TAB -->
   <div class="tab-pane fade show active" id="loginForm" role="tabpanel" aria-labelledby="login-tab">
     <div class="modal-content">
 
@@ -16,16 +16,16 @@
         <form class="needs-validation" novalidate>
 
           <div class="form-group">
-            <label for="email">E-postadress</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="" required>
+            <label for="email2">E-postadress</label>
+            <input type="email" class="form-control" id="email2" aria-describedby="emailHelp" placeholder="" required>
               <div class="invalid-feedback">
                 E-post och/ eller lösenord är felaktigt
               </div>
           </div>
 
           <div class="form-group">
-            <label for="password">Lösenord</label>
-            <input type="password" class="form-control" id="password" placeholder="" required>
+            <label for="password2">Lösenord</label>
+            <input type="password" class="form-control" id="password2" placeholder="" required>
             <div class="invalid-feedback">
               E-post och/ eller lösenord är felaktigt
             </div>
@@ -36,7 +36,7 @@
             <label class="form-check-label" for="exampleCheck1">Håll mig inloggad</label>
           </div>
           <div class=" mt-4">
-            <button type="submit" routerLink="/profile" class="btn btn-lg btn-success">Logga in</button>
+            <button type="submit" class="btn btn-lg btn-success" (click)="login()">Logga in</button>
           </div>
         </form>
 
@@ -76,13 +76,13 @@
 </div>
 
 <script>
-
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
     (function() {
       'use strict';
       window.addEventListener('load', function() {
-
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
         var forms = document.getElementsByClassName('needs-validation');
-
+        // Loop over them and prevent submission
         var validation = Array.prototype.filter.call(forms, function(form) {
           form.addEventListener('submit', function(event) {
             if (form.checkValidity() === false) {
@@ -94,4 +94,4 @@
         });
       }, false);
     })();
-</script>
+    </script>

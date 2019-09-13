@@ -1,8 +1,20 @@
-
-
+@import '../../colors';
 
 .footer-section {
 
-    background-color: #fce4ec;
+    background-color: $green-light; 
+    border-top: 1px solid $green-logo;
+
+    .card-body {
+        color: $pink;
+        ul {
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 
 }

@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAGA,AAAA,eAAe,CAAC;EAEZ,gBAAgB,EAAE,OAAO;CAE5B",
+    "mappings": "AAEA,AAAA,eAAe,CAAC;EAEZ,gBAAgB,ECGN,OAAO;EDFjB,UAAU,EAAE,GAAG,CAAC,KAAK,CCCZ,OAAO;CDanB;;AAjBD,AAKI,eALW,CAKX,UAAU,CAAC;EACP,KAAK,ECPN,OAAO;CDgBT;;AAfL,AAQY,eARG,CAKX,UAAU,CAEN,EAAE,CACE,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;CAInB;;AAbb,AAUgB,eAVD,CAKX,UAAU,CAEN,EAAE,CACE,EAAE,CAEE,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CACxB",
     "sources": [
-        "footer.component.scss"
+        "footer.component.scss",
+        "../../_colors.scss"
     ],
     "names": [],
     "file": "footer.component.css"
